@@ -1,0 +1,41 @@
+.chat-area {
+  width: 75%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-box {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.chat-box::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+.chat-box::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+.message {
+  color: white;
+  background-color: #6849b1;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.sended {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.received {
+  display: flex;
+  justify-content: flex-start;
+}

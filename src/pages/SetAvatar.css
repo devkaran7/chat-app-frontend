@@ -1,0 +1,36 @@
+.select-avatar-container {
+  width: 50%;
+  margin: 10rem auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.select-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.select-avatar img {
+  height: 160px;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 11px;
+  transition: 300ms;
+}
+
+.select-avatar img:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.7);
+  transition: 300ms;
+}
+
+@media (max-width: 768px) {
+  .select-avatar-container {
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
